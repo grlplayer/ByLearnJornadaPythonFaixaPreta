@@ -13,29 +13,22 @@ while action != 0:
     print('5-Potênciação')
     action = int(input(''))
 
+    num1 = int(input("Digite o primeiro valor "))
+    num2 = int(input("Digite o segundo valor "))
+
     if action == 1:
-        num1 = int(input("Digite o primeiro valor "))
-        num2 = int(input("Digite o segundo valor "))
         x = num1 + num2
         print(x)
     elif action == 2:
-        num1 = int(input("Digite o primeiro valor "))
-        num2 = int(input("Digite o segundo valor "))
         x = num1 - num2
         print(x)
     elif action == 3:
-        num1 = int(input("Digite o primeiro valor "))
-        num2 = int(input("Digite o segundo valor "))
         x = num1 * num2
         print(x)
     elif action == 4:
-        num1 = int(input("Digite o primeiro valor "))
-        num2 = int(input("Digite o segundo valor "))
         x = num1 / num2
         print(x)
     elif action == 5:
-        num1 = int(input("Digite a base "))
-        num2 = int(input("Digite o expoente "))
         pot = 0
         x = 1
         while pot < num2:
